@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+
+    <!-- ESTILO CSS -->
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+    <title>RDSCobrança</title>
+    <link rel="icon" href="img/logo.topo.png">
+  </head>
+  <body>
+
+    <header>  <!-- CABEÇALHO -->
+      <div id="menu-topo-principal">
+        <a href="index.html">
+          <img src="img/logo.png" width="250" class="p-2 ml-4">
+        </a>
+      </div>
+
+    </header>
+
+    <section id="menu-topo"> <!-- MENU TOPO -->
+      
+      <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler btn" type="button" data-toggle="collapse" data-target="#botao-navegacao">
+            <i class="fa-solid fa-arrow-turn-down fa-lg"></i>
+          </button>
+          <div class="barra-navegacao collapse navbar-collapse" id="botao-navegacao">
+            <ul class="navbar-nav"> <!-- BARRA NAVEGAÇÃO TOPO --> 
+
+              <li class="nav-item">
+                <img src="img/menu.adm.png">
+                <a class="nav-link active" aria-current="page" href="index.html">Administrativo +</a>
+              </li>
+
+              <li class="nav-item">
+                <img src="img/menu.cadastro.png">
+                <a class="nav-link active" aria-current="page" href="#">Cadastros +</a>
+              </li>            
+              
+              <li class="nav-item">  <!-- DROPDOWN MENU -->
+                <img src="img/menu.atendimento.png">
+                <div class="dropdown"> 
+                    <a class="dropdown-toggle" href="" id="#botao-menu-drop" data-toggle="dropdown">Atendimento</a>
+                    <ul class="dropdown-menu" id="">
+                      <li class="dropdown-custom"><a class="dropdown-item" href="ativo.html">Ativo</a></li>
+                      <li class="dropdown-custom"><a class="dropdown-item" href="andamento.html">Andamento</a></li>
+                    </ul>
+                </div>
+              </li>
+
+              <li class="nav-item">
+                <img src="img/menu.relatorio.png">
+                <a class="nav-link active" aria-current="page" href="#">Relatórios +</a>
+              </li>
+
+              <li class="nav-item">
+                <img src="img/menu.sair.png">
+                <a class="nav-link active" aria-current="page" href="#">Sair do Sistema</a>
+              </li>
+             
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+
+    </section>
+
+    <section id="conteudo-centro" class="mt-2"> <!-- CONTEUDO CENTRO -->
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">Atendimento | Ativo</div>
+          
+        </div>
+      </div>
+      
+    </section>
+
+    <section id="conteudo-centro" class="mt-2"> <!-- CONTEUDO CENTRO -->
+
+      <div id="container-central">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 justify-content-center align-items-center">
+              <form>
+                <fieldset id="fieldset">
+                  Campanha
+                  <select class="mt-1">
+                    <option class="ativa">Selecione...</option>
+                    <option>ODORATA INDUSTRIA E COMERCIO</option>
+                  </select>
+                </fieldset>
+                <fieldset id="fieldset" class="ml-1">
+                  Dias
+                  <select class="mt-1">
+                    <option class="ativa">Carregando...</option>
+                  </select>  
+                  <button class="btn btn-primary btn-sm ml-2">Abrir Campanha</button>                    
+                </fieldset>
+                <p id="paragrafo">
+                  <i class="fa-solid fa-exclamation fa-lg mr-1"></i>
+                  ESCOLHA UMA CAMPANHA PARA CONTINUAR...
+                </p>
+                    
+               </form>
+              
+            </div>            
+          </div>           
+        </div>
+      </div>
+      
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-6">Usuario: brasilia.markys</div>
+          <div class="col-6">Copyright ©2013 RDATA SYSTEM</div>
+        </div>
+        
+      </div>
+    </footer>
+
+
+    
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
